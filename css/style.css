@@ -34,7 +34,7 @@
     text-decoration: none;
 }
 body{
-    background-color: rgb(20, 20, 64);
+    background-color: rgb(16, 16, 51);
 }
 .header__div-right-button{
     padding: 15px 40px;
@@ -42,7 +42,7 @@ body{
   border-radius: 5px;
   font-size: 20px;
   color: #fff;
-  background-color: rgb(20, 20, 64);
+  background-color: rgb(16, 16, 51);
 }
 
 /*header end*/
@@ -99,7 +99,7 @@ body{
 .section_home__div-right-div{
    position: absolute;
    font-weight: bold;
-    background-color: rgb(14, 14, 44) ;
+    background-color: rgb(11, 11, 34) ;
      border-radius: 50%;
      border: 1px solid #DF1CFF;
      left: 750px;
@@ -174,7 +174,7 @@ body{
     padding: 20px 0;
 }
 .section_All_NFTs_cards-topcard{
-    background-color: rgb(26, 26, 77);
+    background-color: rgb(23, 23, 67);
     padding: 35px;
     border-radius: 10px;
 }
@@ -208,9 +208,75 @@ body{
     border-radius: 5px;
     font-size: 20px;
     color: #fff;
-    background-color: rgb(20, 20, 64);
+    background-color: rgb(16, 16, 51);
 }
 /*section All NFTs end*/
 
+
+/*section_UNIQUE-start*/
+.section_UNIQUE__div-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_UNIQUE__div-top-button{
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid #1EE0E1;
+    background-color: rgb(16, 16, 51);
+    color: #ffffff;
+}
+.section_UNIQUE__div{
+    padding: 100px 0;
+}
+.section_UNIQUE__div-button_div-card-h3{
+    font-size: 22px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+.section_UNIQUE__div-button_div-card-p{
+    font-size: 20px;
+    color: #bcbcbc;
+    line-height: 30px;
+}
+.section_UNIQUE__div-button_div-card{
+    background-color: rgb(23, 23, 67);
+    padding: 70px;
+    border-radius:30px;
+    padding: 60px 80px;
+}
+.section_UNIQUE__div-button_div{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+/*section_UNIQUE-end*/
+
+/*section_Category-strt*/
+.section-Category__div-top-p{
+    text-align: center;
+    color: #bcbcbc;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.section-Category__div-button-div{
+    display: flex;
+    justify-content: space-between;
+}
+.section-Category__div-button{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 50px 0;
+}
+.nimadr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+/*section_Category-end*/
 
 /*main end*/
