@@ -344,3 +344,43 @@ body{
 }
 /*section_end*/
 /*main end*/
+
+/*footer start*/
+.footer__div-top{
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-between;
+}
+.footer__div-top-div-p{
+    font-size: 20px;
+    color: #bcbcbc;
+    padding: 5px 0;
+}
+.footer_div-middle{
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.footer_div-middle-img{
+    padding: 20px;
+    background-color: rgb(23, 23, 67);
+    border-radius: 50%;
+}
+.footer__div-button{
+    border-top: 0.1px solid #bcbcbc;
+    padding: 50px 0;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.footer__div-button-a{
+    display: flex;
+    gap: 50px;
+}
+.footer__div-button-a-a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*footer end*/
