@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 .header__div-middle{
     display: flex;
@@ -162,10 +162,55 @@ body{
 .ection_All_NFTs-div-cards-div{
     display: flex;
 }
-.section_All_NFTs-div-cards-div_card{
-    background-color: #DF1CFF;
-}
 
+.section_All_NFTs_cards{
+    padding: 30px 0;
+}
+.section_All_NFTs_cards-top{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.section_All_NFTs_cards-topcard{
+    background-color: rgb(26, 26, 77);
+    padding: 35px;
+    border-radius: 10px;
+}
+.section_All_NFTs_cards-topcard-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.section_All_NFTs_cards-topcard-div-div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.star{
+    display: flex;
+    gap: 10px;
+}
+.NFTs_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NFTS_bnt{
+    padding: 15px 40px;
+    border: 1px solid #DF1CFF;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(20, 20, 64);
+}
 /*section All NFTs end*/
+
 
 /*main end*/
