@@ -20,7 +20,7 @@
 }
 .header__div-middle{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 .header__div-left-a{
   font-size: 28px;
@@ -279,4 +279,68 @@ body{
 }
 /*section_Category-end*/
 
+/*section_Trending-start*/
+.section_Trending-div{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.section_Trending-div-left-p{
+    color: #bcbcbc;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 60px;
+}
+.section_Trending-div-middle-p{
+    color: #bcbcbc;
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+.section_Trending-div-middle-h4{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 35px;
+}
+.img{
+    border-radius: 20px;
+}
+/*section_Trending-end*/
+
+/*section start*/
+.section__div{
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section__div-h2{
+    font-size: 72px;
+    color: #ffffff;
+    
+    text-shadow: 5px 3px 0px #1EE0E1;
+}
+.section__div-p{
+    color: #bcbcbc;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding: 30px 0;
+}
+.section__div-input{
+    width: 700px;
+    height: 70px;
+    font-size: 20px;
+    color: #bcbcbc;
+    padding-left: 20px;
+    background-color: rgb(23, 23, 67);
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+/*section_end*/
 /*main end*/
